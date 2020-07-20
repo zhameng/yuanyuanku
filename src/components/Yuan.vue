@@ -1,10 +1,10 @@
 <template>
-    $END$
+    <h2>圆圆</h2>
 </template>
 
 <script>
     export default {
-        name: "yuan"
+        name: "Yuan"
     }
 </script>
 

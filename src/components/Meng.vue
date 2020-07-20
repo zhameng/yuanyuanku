@@ -1,10 +1,10 @@
 <template>
-    $END$
+    <h2>梦梦</h2>
 </template>
 
 <script>
     export default {
-        name: "meng"
+        name: "Meng"
     }
 </script>
 
