@@ -1,11 +1,12 @@
 <template>
-    <h2>梦梦</h2>
-
+    <div>
+        <h2>花花</h2>
+    </div>
 </template>
 
 <script>
     export default {
-        name: "Meng"
+        name: "Hua"
     }
 </script>
 

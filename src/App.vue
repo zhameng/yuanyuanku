@@ -1,11 +1,25 @@
 <template>
   <div id="app">
+    <header>我是头部</header>
+    <section>
+      <nav>
+        <ul>
+          <li>一</li>
+          <li>一</li>
+          <li>一</li>
 
-    <router-link to="/meng">梦</router-link>
-    <router-link to="/yuan">圆</router-link>
-    <!-- 路由出口 -->
-    <!-- 路由匹配到的组件将渲染在这里 -->
-    <router-view></router-view>
+        </ul>
+      </nav>
+      <div class="content">
+        <router-link to="/meng">梦</router-link>
+        <router-link to="/yuan">圆</router-link>
+
+
+        <router-view></router-view>
+      </div>
+    </section>
+
+
   </div>
 </template>
 
@@ -17,12 +31,6 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+
 </style>
