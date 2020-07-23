@@ -1,25 +1,7 @@
 <template>
   <div id="app">
-    <header>我是头部</header>
-    <section>
-      <nav>
-        <ul>
-          <li>一</li>
-          <li>一</li>
-          <li>一</li>
-
-        </ul>
-      </nav>
-      <div class="content">
-        <router-link to="/meng">梦</router-link>
-        <router-link to="/yuan">圆</router-link>
-
-
+<!--    app里的route一般只写这一个-->
         <router-view></router-view>
-      </div>
-    </section>
-
-
   </div>
 </template>
 

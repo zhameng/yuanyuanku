@@ -1,6 +1,8 @@
 <template>
-    <h2>梦梦</h2>
-
+    <div>
+        <h2>梦梦</h2>
+        <router-link to="/yuan/money">前</router-link>
+    </div>
 </template>
 
 <script>
