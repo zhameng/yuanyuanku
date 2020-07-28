@@ -4,8 +4,10 @@ import Vuex from 'vuex'
 import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import HeyUI from 'heyui';
 
 
+Vue.use(HeyUI);
 Vue.use(Vuex)
 Vue.use(ElementUI);
 
