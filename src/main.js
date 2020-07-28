@@ -5,7 +5,7 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import HeyUI from 'heyui';
-
+import "heyui/themes/index.less";
 
 Vue.use(HeyUI);
 Vue.use(Vuex)

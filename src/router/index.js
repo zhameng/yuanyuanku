@@ -7,8 +7,8 @@ Vue.use(VueRouter)
 
 
 const Meng = ()=>import('../components/Meng')
-const Yuan = ()=>import('../components/Yuan')
-
+// const Yuan = ()=>import('../components/Yuan')
+import Layout from '../layout/component/Sidebar'
 const  routes=[
     {
         path:'',
@@ -21,7 +21,7 @@ const  routes=[
     },
     {
         path: '/yuan',
-        component: Yuan,
+        component: Layout,
         children:[
             {
                 path:'money',
